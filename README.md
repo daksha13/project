@@ -4,6 +4,23 @@ This project explores a dataset of global YouTube statistics to uncover insights
 
 ---
 
+## 🔍 What’s Inside
+
+- **bar_charts.ipynb**: Bar plots for top YouTubers by subscribers, views, and videos
+- **pie_charts.ipynb**: Pie charts showing category and country distributions
+- **data/**: Contains the main dataset (CSV)
+- **images/**: Exported charts
+- **sql/**: Sample SQL queries
+
+---
+
+## 📦 Dataset
+
+- **File**: Global YouTube Statistics.csv
+- **Fields**: Youtuber, Subscribers, Views, Videos, Category, Country, Description
+
+---
+
 ## 🧰 Tools & Technologies Used
 
 - 🐍 Python (for data cleaning & analysis)
@@ -18,12 +35,15 @@ This project explores a dataset of global YouTube statistics to uncover insights
 
 | File | Description |
 |------|-------------|
-| `project.ipynb` | Python notebook performing EDA on YouTube data |
-| `project.sql` | SQL queries used in analysis |
-| `Global YouTube Statistics.csv` | Raw dataset |
-| `YouTubers Data Analysis Report.pdf` | Final report summarizing key insights |
-| `Image 1.png`, `Image 2.png` | Visualizations used in the report |
-| `README.md` | This documentation file |
+project-main/
+├── notebooks/ # Python notebooks performing EDA on YouTube data
+│ └── bar_charts.ipynb # Notebook with bar chart visualizations
+│ └── pie_charts.ipynb # Notebook with pie chart visualizations
+├── data/
+│ └── Global YouTube Statistics.csv # Primary dataset
+├── images/ # Exported visualizations
+├── sql/ # SQL queries for advanced filtering
+└── README.md # Project overview (this file)
 
 ---
 
@@ -36,13 +56,20 @@ This project explores a dataset of global YouTube statistics to uncover insights
 
 ---
 
-## 📊 Sample Visualizations
+## 📊 Visualizations
 
-![Top Categories](Image%201.png)
-*Top YouTube categories by total subscribers*
+### 📈 Bar Charts (`bar_charts.ipynb`)
+- Top 10 YouTubers by:
+  - Subscribers
+  - Views
+  - Number of Videos
+- Country-wise distribution of subscribers
+- Most active countries in terms of creators
 
-![Country Comparison](Image%202.png)
-*Country-wise distribution of top creators*
+### 🥧 Pie Charts (`pie_charts.ipynb`)
+- Subscriber share by category
+- Distribution of creators by content type
+- Country-wise category spread (optional)
 
 ---
 
