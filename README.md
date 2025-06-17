@@ -61,3 +61,13 @@ Here are a few sample insights from the Power BI and Python-generated visuals:
 | Subscribers by Channel Type | 📊 Clustered Column |
 
 *(Images are included in the repository)*
+
+---
+
+🙌 Acknowledgements
+
+Thanks to the data providers and open-source libraries used in this project:
+
+- Python community (Pandas, Seaborn, Matplotlib)
+- Microsoft Power BI
+- GitHub for version control and sharing
